@@ -1,0 +1,25 @@
+.header {
+  background-color: yellow;
+  padding: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 2px;
+  background-color: yellow;
+  color: black;
+}
+
+.link {
+  color: black;
+}
+
+.link:hover {
+  color: blue;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  color: black;
+}
