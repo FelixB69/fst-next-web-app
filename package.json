@@ -6,10 +6,12 @@
     "start": "next start"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "body": "^5.1.0",
     "gray-matter": "^4.0.3",
     "moment": "^2.29.3",
     "next": "latest",
+    "promise": "^8.1.0",
     "raw": "^0.1.4",
     "react": "17.0.2",
     "react-dom": "17.0.2",

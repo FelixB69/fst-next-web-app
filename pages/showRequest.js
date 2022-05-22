@@ -1,7 +1,7 @@
 import moment from "moment";
 import getRawBody from "raw-body";
 
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 
 export default function showRequestPage({
   query,

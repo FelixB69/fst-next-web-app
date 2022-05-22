@@ -6,7 +6,7 @@ export default function Layout({ children, pageTitle }) {
   return (
     <>
       <header className={styles.header}>
-        <nav>
+        <nav className={styles.menu}>
           <Link href="/">
             <a href="/" className={styles.link}>
               Home
@@ -15,6 +15,11 @@ export default function Layout({ children, pageTitle }) {
           <Link href="/campuses">
             <a className={styles.navlink} href="/campuses">
               Campuses
+            </a>
+          </Link>
+          <Link href="/articles">
+            <a className={styles.navlink} href="/articles">
+              Blog
             </a>
           </Link>
           <Link href="/about">

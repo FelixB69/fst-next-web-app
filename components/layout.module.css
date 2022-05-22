@@ -4,8 +4,9 @@
 }
 
 .footer {
-  text-align: center;
-  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: yellow;
   color: black;
 }
@@ -20,6 +21,6 @@
 
 .menu {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   color: black;
 }
