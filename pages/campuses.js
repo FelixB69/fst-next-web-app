@@ -5,7 +5,7 @@ import { getCampusesFromDb } from "../db";
 export default function CampusesPage({ campuses, lastUpdateDate }) {
   return (
     <Layout pageTitle="Campuses">
-      <p>Page generated on : {lastUpdateDate}</p>
+      <p>This page was last updated on {lastUpdateDate}</p>
       <h1>Our Campuses</h1>
       {campuses.map(({ id, name }) => {
         return <li key={id}>{name}</li>;
@@ -22,5 +22,6 @@ export async function getStaticProps() {
       campuses,
       lastUpdateDate: currentDate,
     },
+    revalidate: 10,
   };
 }

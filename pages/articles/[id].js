@@ -57,5 +57,6 @@ export async function getStaticProps({ params }) {
       pictureUrl,
       lastUpdateDate: currentDate,
     },
+    revalidate: 2,
   };
 }
