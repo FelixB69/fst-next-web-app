@@ -39,8 +39,6 @@ export default async function getDb() {
   return db;
 }
 
-export async function getCampusesFromDb() {
-  // eslint-disable-next-line no-shadow
-  const db = await getDb();
-  return db.all("SELECT * from campus");
-}
+module.exports = {
+  getDb,
+};
